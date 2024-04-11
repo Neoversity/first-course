@@ -255,12 +255,12 @@ def get_upcoming_birthdays(users):
 
 
 # Приклад використання:
-users = [
-    {"name": "John", "birthday": "2024.04.16"},
-    {"name": "Alice", "birthday": "1984.04.14"},
-    {"name": "Bob", "birthday": "2024.04.18"},
-    {"name": "Jane", "birthday": "2024.04.19"},
-]
-
-upcoming_birthdays = get_upcoming_birthdays(users)
-print(upcoming_birthdays)
+# users = [
+#     {"name": "John", "birthday": "2024.04.16"},
+#     {"name": "Alice", "birthday": "1984.04.14"},
+#     {"name": "Bob", "birthday": "2024.04.18"},
+#     {"name": "Jane", "birthday": "2024.04.19"},
+# ]
+#
+# upcoming_birthdays = get_upcoming_birthdays(users)
+# print(upcoming_birthdays)
