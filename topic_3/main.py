@@ -120,11 +120,30 @@
 # print(iso_calendar)
 
 
-import datetime
-from datetime import datetime, timezone
+# import datetime
+# from datetime import datetime, timezone
+#
+# local_now = datetime.now()
+# utc_now = datetime.now(timezone.utc)
+#
+# print(local_now)
+# print(utc_now)  # Виведе поточний час в UTC
 
-local_now = datetime.now()
-utc_now = datetime.now(timezone.utc)
+# main.py
+# from tack_6 import say_hello as greeting
+# def main():
+#     print("You imported hello.py")
+#     greeting('user')
+#
+# if __name__ == '__main__':
+#     main()
 
-print(local_now)
-print(utc_now)  # Виведе поточний час в UTC
+import sys
+
+def main():
+    if len(sys.argv) > 1:
+        print(sys.argv[1])
+
+if __name__ == "__main__":
+    main()
+
