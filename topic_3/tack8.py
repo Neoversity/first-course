@@ -150,25 +150,25 @@
 
 
 
-# def my_generator():
-#     yield 1
-#     yield 2
-#     yield 3
+def my_generator():
+    yield 1
+    yield 2
+    yield 3
 
-# gen = my_generator()
+gen = my_generator()
 
-# # Використання next()
-# print(next(gen))  # Виведе 1
-# print(next(gen))  # Виведе 2
-# print(next(gen))  # Виведе 3
-# print(next(gen))
+# Використання next()
+print(next(gen))  # Виведе 1
+print(next(gen))  # Виведе 2
+print(next(gen))  # Виведе 3
+print(next(gen))
 
 
 
-def count_down(start):
-    while start > 0:
-        yield start
-        start -= 1
+# def count_down(start):
+#     while start > 0:
+#         yield start
+#         start -= 1
 
-for number in count_down(5):
-    print(number)
+# for number in count_down(5):
+#     print(number)
